@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* SweetAlert2 Arabic Styling */
+.swal2-popup-arabic {
+  font-family: 'Tajawal', 'Cairo', sans-serif !important;
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+.swal2-title-arabic {
+  font-family: 'Tajawal', 'Cairo', sans-serif !important;
+  font-weight: 700 !important;
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+.swal2-html-container-arabic {
+  font-family: 'Tajawal', 'Cairo', sans-serif !important;
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+.swal2-confirm-arabic {
+  font-family: 'Tajawal', 'Cairo', sans-serif !important;
+  font-weight: 600 !important;
+  padding: 8px 20px !important;
+  border-radius: 8px !important;
+}
+
+.swal2-cancel-arabic {
+  font-family: 'Tajawal', 'Cairo', sans-serif !important;
+  font-weight: 600 !important;
+  padding: 8px 20px !important;
+  border-radius: 8px !important;
+}
+
+/* SweetAlert2 Input Styling */
+.swal2-input {
+  font-family: 'Tajawal', 'Cairo', sans-serif !important;
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+.swal2-textarea {
+  font-family: 'Tajawal', 'Cairo', sans-serif !important;
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+@layer base {
+
+  /**
+   * Tailwind CSS theme with custom Arabic tool rental platform colors
+   */
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 197 100% 8%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 197 100% 8%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 197 100% 8%;
+
+    --primary: 197 100% 8%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 197 100% 8%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 170 64% 48%;
+    --accent-foreground: 197 100% 8%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 197 100% 8%;
+
+    --radius: 0.5rem;
+
+    /* Custom platform colors */
+    --orange: 19 100% 55%;
+    --teal: 170 64% 48%;
+    --light-teal: 170 64% 75%;
+    --dark-blue: 197 100% 8%;
+    --gray-text: 0 0% 50%;
+    --light-gray: 210 11% 93%;
+    --cream: 40 50% 97%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    direction: rtl;
+    lang: ar;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Tajawal', 'Cairo', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+    direction: rtl;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+  }
+
+  * {
+    font-family: 'Tajawal', 'Cairo', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  /* RTL Scrollbar fix - force scrollbar on the right side */
+  html[dir="rtl"] {
+    overflow-y: scroll;
+  }
+
+  html[dir="rtl"] body {
+    overflow-x: auto;
+    direction: rtl;
+  }
+
+  /* Force scrollbar on right side for RTL */
+  html[dir="rtl"] ::-webkit-scrollbar {
+    width: 12px;
+    position: absolute;
+    right: 0;
+  }
+
+  html[dir="rtl"] ::-webkit-scrollbar-track {
+    background: hsl(var(--light-gray));
+    border-radius: 6px;
+  }
+
+  html[dir="rtl"] ::-webkit-scrollbar-thumb {
+    background: hsl(var(--orange));
+    border-radius: 6px;
+    border: 2px solid hsl(var(--light-gray));
+  }
+
+  html[dir="rtl"] ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--dark-blue));
+  }
+
+  /* Firefox RTL scrollbar */
+  html[dir="rtl"] * {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--orange)) hsl(var(--light-gray));
+  }
+
+  .font-arabic {
+    font-family: 'Tajawal', 'Cairo', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+    font-weight: 400;
+    direction: rtl;
+    text-align: right;
+    letter-spacing: 0.01em;
+  }
+
+  /* Apply Tajawal font to all text elements */
+  h1, h2, h3, h4, h5, h6, p, span, div, button, a, input, textarea, select, label {
+    font-family: 'Tajawal', 'Cairo', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  /* RTL support for icons and layouts */
+  [dir="rtl"] .rtl\:rotate-180 {
+    transform: rotate(180deg);
+  }
+
+  [dir="rtl"] .rtl\:space-x-reverse>*+* {
+    margin-right: 0.5rem;
+    margin-left: 0;
+  }
+
+  /* Better RTL flex support */
+  .rtl-flex {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .rtl-flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Arabic text improvements */
+  .text-arabic {
+    direction: rtl;
+    text-align: right;
+    unicode-bidi: bidi-override;
+  }
+
+  /* Custom scrollbar for Arabic content */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--light-gray));
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--teal));
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--dark-blue));
+  }
+
+  /* Scrollbar utilities */
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .scrollbar-thumb-orange::-webkit-scrollbar-thumb {
+    background: hsl(var(--orange));
+    border-radius: 3px;
+  }
+
+  .scrollbar-track-gray-100::-webkit-scrollbar-track {
+    background: #f3f4f6;
+  }
+
+  /* RTL specific fixes */
+  [dir="rtl"] {
+    scroll-behavior: smooth;
+  }
+
+  [dir="rtl"] * {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--orange)) #f3f4f6;
+  }
+
+  /* Smooth animations */
+  .animate-slide-down {
+    animation: slideDown 0.3s ease-out;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.3s ease-out;
+  }
+
+  .animate-dropdown-enter {
+    animation: dropdownEnter 0.2s ease-out;
+  }
+
+  .animate-dropdown-exit {
+    animation: dropdownExit 0.2s ease-in;
+  }
+
+  .animate-mobile-menu {
+    animation: mobileMenuSlide 0.3s ease-out;
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      max-height: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    to {
+      opacity: 1;
+      max-height: 200px;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 1;
+      max-height: 200px;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    to {
+      opacity: 0;
+      max-height: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  @keyframes dropdownEnter {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes dropdownExit {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    to {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes mobileMenuSlide {
+    from {
+      opacity: 0;
+      max-height: 0;
+    }
+
+    to {
+      opacity: 1;
+      max-height: 400px;
+    }
+  }
+
+  /* Custom range slider styles */
+  .slider::-webkit-slider-thumb {
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: hsl(var(--orange));
+    cursor: pointer;
+    border: 3px solid white;
+    box-shadow: 0 4px 8px rgba(249, 115, 22, 0.3);
+    transition: all 0.2s ease;
+  }
+
+  .slider::-webkit-slider-thumb:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(249, 115, 22, 0.4);
+  }
+
+  .slider::-webkit-slider-track {
+    height: 8px;
+    border-radius: 4px;
+    background: #e5e7eb;
+  }
+
+  .slider::-moz-range-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: hsl(var(--orange));
+    cursor: pointer;
+    border: 3px solid white;
+    box-shadow: 0 4px 8px rgba(249, 115, 22, 0.3);
+    transition: all 0.2s ease;
+  }
+
+  .slider::-moz-range-track {
+    height: 8px;
+    border-radius: 4px;
+    background: #e5e7eb;
+  }
+
+  /* Filter section animations */
+  .filter-section {
+    animation: filterSlideIn 0.5s ease-out;
+  }
+
+  @keyframes filterSlideIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Enhanced select styling */
+  select:focus {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 25px rgba(249, 115, 22, 0.15);
+  }
+
+  /* Quick filter buttons */
+  .quick-filter-btn {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .quick-filter-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Backdrop blur effect */
+  .backdrop-blur-custom {
+    backdrop-filter: blur(8px);
+  }
+
+  /* Advanced glass morphism */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  /* Enhanced scrollbar hiding */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Advanced image hover effects */
+  .image-zoom {
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .image-zoom:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1) contrast(1.1);
+  }
+
+  /* Enhanced card animations */
+  .card-hover {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .card-hover:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Floating animation */
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .float-animation {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  /* Gradient text effect */
+  .gradient-text {
+    background: linear-gradient(135deg, #f97316, #dc2626);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Enhanced button effects */
+  .button-shine {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .button-shine::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: left 0.5s;
+  }
+
+  .button-shine:hover::before {
+    left: 100%;
+  }
+
+  /* Advanced shadows */
+  .shadow-glow {
+    box-shadow: 0 0 30px rgba(249, 115, 22, 0.3);
+  }
+
+  .shadow-inner-glow {
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Responsive improvements */
+  @media (max-width: 1024px) {
+    .tools-sidebar {
+      display: none;
+    }
+
+    .tools-main {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .responsive-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .responsive-text {
+      font-size: 0.875rem;
+    }
+
+    .responsive-padding {
+      padding: 1rem;
+    }
+  }
+
+  @media (min-width: 641px) and (max-width: 1024px) {
+    .responsive-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .responsive-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}

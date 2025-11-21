@@ -1,0 +1,6 @@
+{
+  "command": "npm run dev",
+  "serverUrl": "https://58ac7443680b4f8f928d1e387b6a2cf6-cosmos-landing.projects.builder.my/",
+  "authenticateProxy": false,
+  "commitMode": "commits"
+}
