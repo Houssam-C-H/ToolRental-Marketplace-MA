@@ -10,21 +10,54 @@ Ajir is a comprehensive digital marketplace for tool rentals in Morocco, focusin
 
 ### Homepage Hero Section
 ![Homepage Hero Section](./public/hero-image.jpg)
-*Hero section with construction workers image and call-to-action buttons*
+*Hero section featuring construction workers at sunset with prominent call-to-action buttons. The section includes navigation, search functionality, and brand messaging.*
 
 ### Value Proposition Banners
-![Value Proposition Banners](./public/banner-section-1.png) ![Value Proposition Banners](./public/banner-section-2.png)
-*Two prominent banners: Renter-focused (left) and Owner-focused (right) with brand-colored gradients*
+<div align="center">
+  <img src="./public/banner-section-1.png" alt="Renter Banner" width="400"/>
+  <img src="./public/banner-section-2.png" alt="Owner Banner" width="400"/>
+</div>
+
+**Left Banner (Renter-Focused):**
+- Dark brown/orange gradient background
+- Headline: "وفر حتى 70% من ميزانية مشروعك!" (Save up to 70% of your project budget!)
+- Metric badge: "أكثر من 500 أداة" (More than 500 tools)
+- CTA: "ابدأ البحث الآن" (Start Searching Now) with search icon
+
+**Right Banner (Owner-Focused):**
+- Bright teal/green gradient background
+- Headline: "حوّل أدواتك المدخرة إلى دخل شهري إضافي" (Turn your saved tools into additional monthly income)
+- Trust badge: "نظام حماية" (Protection System) with shield icon
+- CTA: "ابدأ الكسب الآن" (Start Earning Now) with plus icon
 
 ### Categories Section
-![Categories Section](./public/المولدات والمضخات.png) ![Categories Section](./public/معدات الجرديناج.png) ![Categories Section](./public/معدات البناء الكبيرة.png)
-*Favorite categories showcase with tool icons*
+![Categories](./public/المولدات والمضخات.png) ![Categories](./public/معدات الجرديناج.png) ![Categories](./public/معدات البناء الكبيرة.png)
+
+*Six main tool categories displayed as cards:*
+- أدوات الحفر والتنقيب (Drilling and Excavation Tools)
+- أدوات القص والتقطيع (Cutting and Sawing Tools)
+- أدوات (البريكولاج) (DIY Tools)
+- معدات البناء الكبيرة (Heavy Construction Equipment)
+- معدات البستنة (Gardening Equipment)
+- المولدات والمضخات (Generators and Pumps)
 
 ### How It Works Section
-*Four-step process cards showing the rental workflow from exploration to project completion*
+*Four-step process visualization:*
+1. **استكشف المنصة** (Explore the Platform) - Browse hundreds of tools
+2. **اختر الأداة المثالية** (Choose the Ideal Tool) - Compare and select
+3. **تواصل مع المالك** (Contact the Owner) - Direct communication
+4. **ابدأ مشروعك** (Start Your Project) - Get tools and begin work
 
 ### Footer
-*Comprehensive footer with navigation links, contact information, and important disclaimers*
+*Comprehensive footer featuring:*
+- Platform description and logo
+- Important pages navigation
+- Main categories links
+- Contact information (phone, email, location)
+- Social media links (WhatsApp, Twitter/X, Facebook)
+- Important disclaimer about platform's intermediary role
+- Copyright and licensing information
+- Security and support badges
 
 ## ✨ Key Features
 
