@@ -8,14 +8,18 @@ Ajir is a comprehensive digital marketplace for tool rentals in Morocco, focusin
 
 ## 📸 Screenshots
 
-### Homepage Hero Section
-![Homepage Hero Section](./public/hero-image.jpg)
-*Hero section featuring construction workers at sunset with prominent call-to-action buttons. The section includes navigation, search functionality, and brand messaging.*
+### Homepage Header
+![Homepage Header](./screenshots/header-homepage.png)
+*Header section with navigation, search functionality, and brand logo. Features orange top banner, search bar, category filters, and user action buttons.*
+
+### Hero Section
+![Hero Section](./screenshots/hero-section.jpg)
+*Hero section featuring construction workers at sunset with prominent call-to-action buttons. The section includes navigation, search functionality, and brand messaging with orange and teal CTAs.*
 
 ### Value Proposition Banners
 <div align="center">
-  <img src="./public/banner-section-1.png" alt="Renter Banner" width="400"/>
-  <img src="./public/banner-section-2.png" alt="Owner Banner" width="400"/>
+  <img src="./screenshots/banner-section-1.png" alt="Renter Banner" width="400"/>
+  <img src="./screenshots/banner-section-2.png" alt="Owner Banner" width="400"/>
 </div>
 
 **Left Banner (Renter-Focused):**
@@ -31,7 +35,7 @@ Ajir is a comprehensive digital marketplace for tool rentals in Morocco, focusin
 - CTA: "ابدأ الكسب الآن" (Start Earning Now) with plus icon
 
 ### Categories Section
-![Categories](./public/المولدات والمضخات.png) ![Categories](./public/معدات الجرديناج.png) ![Categories](./public/معدات البناء الكبيرة.png)
+![Categories Section](./screenshots/category-section.png)
 
 *Six main tool categories displayed as cards:*
 - أدوات الحفر والتنقيب (Drilling and Excavation Tools)
@@ -42,6 +46,8 @@ Ajir is a comprehensive digital marketplace for tool rentals in Morocco, focusin
 - المولدات والمضخات (Generators and Pumps)
 
 ### How It Works Section
+![How It Works](./screenshots/how-it-works.png)
+
 *Four-step process visualization:*
 1. **استكشف المنصة** (Explore the Platform) - Browse hundreds of tools
 2. **اختر الأداة المثالية** (Choose the Ideal Tool) - Compare and select
@@ -49,6 +55,8 @@ Ajir is a comprehensive digital marketplace for tool rentals in Morocco, focusin
 4. **ابدأ مشروعك** (Start Your Project) - Get tools and begin work
 
 ### Footer
+![Footer](./screenshots/footer.png)
+
 *Comprehensive footer featuring:*
 - Platform description and logo
 - Important pages navigation
