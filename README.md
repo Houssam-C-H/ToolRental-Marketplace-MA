@@ -6,6 +6,26 @@ A modern, Arabic-first tool rental marketplace platform connecting tool owners w
 
 Ajir is a comprehensive digital marketplace for tool rentals in Morocco, focusing on Salé and Rabat regions. The platform serves as a digital intermediary connecting tool owners with renters, featuring a complete submission system, admin review workflow, and user-friendly interface with full RTL (Right-to-Left) support for Arabic.
 
+## 📸 Screenshots
+
+### Homepage Hero Section
+![Homepage Hero Section](./public/hero-image.jpg)
+*Hero section with construction workers image and call-to-action buttons*
+
+### Value Proposition Banners
+![Value Proposition Banners](./public/banner-section-1.png) ![Value Proposition Banners](./public/banner-section-2.png)
+*Two prominent banners: Renter-focused (left) and Owner-focused (right) with brand-colored gradients*
+
+### Categories Section
+![Categories Section](./public/المولدات والمضخات.png) ![Categories Section](./public/معدات الجرديناج.png) ![Categories Section](./public/معدات البناء الكبيرة.png)
+*Favorite categories showcase with tool icons*
+
+### How It Works Section
+*Four-step process cards showing the rental workflow from exploration to project completion*
+
+### Footer
+*Comprehensive footer with navigation links, contact information, and important disclaimers*
+
 ## ✨ Key Features
 
 ### For Renters
